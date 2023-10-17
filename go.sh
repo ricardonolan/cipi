@@ -517,7 +517,7 @@ sudo chmod -R o+w /var/www/html/storage
 sudo chmod -R 777 /var/www/html/storage
 sudo chmod -R o+w /var/www/html/bootstrap/cache
 sudo chmod -R 777 /var/www/html/bootstrap/cache
-cd /var/www/html && composer update --no-interaction --with-all-dependencies
+cd /var/www/html && composer update --no-interaction
 cd /var/www/html && php artisan key:generate
 cd /var/www/html && php artisan cache:clear
 cd /var/www/html && php artisan storage:link
