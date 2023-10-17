@@ -428,7 +428,7 @@ class SiteController extends Controller
      *                  property="repository",
      *                  description="Github repository",
      *                  type="string",
-     *                  example="andreapollastri/cipi",
+     *                  example="ricardonolan/cipi",
      *             ),
      *            @OA\Property(
      *                  property="branch",
@@ -517,7 +517,7 @@ class SiteController extends Controller
      *                       property="repository",
      *                       description="Github repository",
      *                       type="string",
-     *                       example="andreapollastri/cipi",
+     *                       example="ricardonolan/cipi",
      *                 ),
      *                 @OA\Property(
      *                       property="branch",
@@ -786,7 +786,7 @@ class SiteController extends Controller
      *                       property="repository",
      *                       description="Github repository",
      *                       type="string",
-     *                       example="andreapollastri/cipi",
+     *                       example="ricardonolan/cipi",
      *                 ),
      *                 @OA\Property(
      *                       property="branch",

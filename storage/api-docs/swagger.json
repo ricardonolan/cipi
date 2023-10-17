@@ -1341,7 +1341,7 @@
                                         "repository": {
                                             "description": "Github repository",
                                             "type": "string",
-                                            "example": "andreapollastri/cipi"
+                                            "example": "ricardonolan/cipi"
                                         },
                                         "branch": {
                                             "description": "Git branch",
@@ -1482,7 +1482,7 @@
                                     "repository": {
                                         "description": "Github repository",
                                         "type": "string",
-                                        "example": "andreapollastri/cipi"
+                                        "example": "ricardonolan/cipi"
                                     },
                                     "branch": {
                                         "description": "Git branch",
@@ -1564,7 +1564,7 @@
                                         "repository": {
                                             "description": "Github repository",
                                             "type": "string",
-                                            "example": "andreapollastri/cipi"
+                                            "example": "ricardonolan/cipi"
                                         },
                                         "branch": {
                                             "description": "Git branch",
