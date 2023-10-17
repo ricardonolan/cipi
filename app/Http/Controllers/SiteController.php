@@ -422,7 +422,7 @@ class SiteController extends Controller
      *                  property="php",
      *                  description="PHP FPM version",
      *                  type="string",
-     *                  example="8.0",
+     *                  example="8.2",
      *             ),
      *             @OA\Property(
      *                  property="repository",

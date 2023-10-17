@@ -22,6 +22,6 @@
         'users_prefix'      => env('CIPI_USERS_PREFIX', 'cp'),
         'phpvers'           => ['8.2'],
         'services'          => ['nginx','php','mysql','redis','supervisor'],
-        'default_php'       => '8.0',
+        'default_php'       => '8.2',
 
     ];
