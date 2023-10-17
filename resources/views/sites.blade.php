@@ -64,9 +64,6 @@
                         <div class="input-group">
                             <select class="form-control" id="newsitephp">
                                 <option value="8.2">8.2</option>
-                                <option value="8.1">8.1</option>
-                                <option value="8.0" selected>8.0</option>
-                                <option value="7.4">7.4</option>
                             </select>
                         </div>
                         <div class="space"></div>

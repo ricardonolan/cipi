@@ -1333,10 +1333,6 @@ class ServerController extends Controller
                     break;
                 case 'php':
                     $ssh->exec('sudo service php8.2-fpm restart');
-                    $ssh->exec('sudo service php8.1-fpm restart');
-                    $ssh->exec('sudo service php8.0-fpm restart');
-                    $ssh->exec('sudo service php7.4-fpm restart');
-                    $ssh->exec('sudo service php7.3-fpm restart');
                     break;
                 case 'mysql':
                     $ssh->exec('sudo service mysql restart');

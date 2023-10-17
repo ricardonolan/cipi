@@ -119,9 +119,6 @@
                 <div class="input-group">
                     <select class="form-control" id="sitephpver">
                         <option value="8.2" id="php81">8.2</option>
-                        <option value="8.1" id="php81">8.1</option>
-                        <option value="8.0" id="php80">8.0</option>
-                        <option value="7.4" id="php74">7.4</option>
                     </select>
                     <div class="input-group-append">
                         <button class="btn btn-primary" type="button" id="sitephpversubmit"><i class="fas fa-edit"></i></button>
@@ -285,19 +282,6 @@
                 switch (data.php) {
                     case '8.2':
                         $('#php82').attr("selected","selected");
-                        break;
-                    case '8.1':
-                        $('#php81').attr("selected","selected");
-                        break;
-                    case '8.0':
-                        $('#php80').attr("selected","selected");
-                        break;
-                    case '7.4':
-                        $('#php74').attr("selected","selected");
-                        break;
-                    case '7.3':
-                        // Append legacy php 7.3
-                        $('#phpver').append('<option value="7.3" selected>7.3</option>');
                         break;
                     default:
                         break;
